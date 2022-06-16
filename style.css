@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oswald:wght@200&family=Quicksand:wght@300&display=swap');
+:root {
+    --cor-escura-1: #332D2D;
+    --cor-escura-2: #59322E;
+    --cor-clara-1: #8C493A;
+    --cor-clara-2: #8C5D5D;
+    --cor-clara-3: #F2F2F2;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--cor-clara-3);
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background-color: var(--cor-escura-1);
+    color: var(--cor-clara-3);
+    padding: 2% 5%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 999999;
+    border-bottom: 1px solid;
+}
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--cor-clara-3);
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    margin-right: 550px;
+}
+.logo:hover {
+    color: var(--cor-clara-1);
+}
+.menu {
+    padding-top: 5px;
+}
+.link-menu {
+    text-decoration: none;
+    color: var(--cor-clara-3);
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 7px;
+}
+.link-menu:hover {
+    font-weight: bolder;
+    color: var(--cor-clara-2);
+}
+
+.container-home {
+    background-image: url(image/banner.png.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: var(--cor-clara-3);
+    padding-left: 5%;
+}
+.subtitulo-home{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+.titulo-home {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 72px;
+}
+.cargo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--cor-clara-3);
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.btn {
+    padding: 2% 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-clara-2);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--cor-clara-3);
+    transition: 0.2s ease-in-out;
+}
+.btn:hover {
+    border: 3px solid;
+    border-color: var(--cor-clara-3);
+    color: var(--cor-clara-3);
+    background-color: transparent;
+}
+.container-sobre {
+    background-color: var(--cor-escura-1);
+    color: var(--cor-clara-3);
+    padding: 4% 5%;
+}
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+.perfil {
+    border-radius: 50%;
+    width: 450px;
+}
+.box-texto-sobre {
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    padding-left: 70px;
+}
+.txt {
+    padding-bottom: 30px;
+
+}
+.container-servicos {
+    background-color: var(--cor-clara-1);
+    padding: 4% 5%;
+    color: var(--cor-clara-3);
+}
+.box-servicos {
+    border-radius: 5px;
+    background-color: var(--cor-escura-2);
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    padding: 4% 5%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.box-servicos:hover{
+    transform: scale(1.1);
+}
+.titulo-box-servicos {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+.material-symbols-outlined {
+    font-size: 55px !important;
+}
+.container-habilidades {
+    background-color: var(--cor-escura-1);
+    padding: 4% 5%;
+    justify-content: center;
+}
+.box-habilidades {
+    font-size: 20px;
+    padding: 4% 5%;
+}
+.bordas {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.titulo-box-habilidades {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.container-projetos {
+    background-color: var(--cor-clara-1);
+    padding: 4% 5%;
+}
+.box-projetos {
+    border-radius: 5px;
+    background-color: var(--cor-escura-2);
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    padding: 4% 5%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.titulo-box-projetos {
+    font-size: 30px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.container-projetos .conteudo{
+    padding-bottom: 5%;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+.container-contato {
+    background-color: var(--cor-escura-1);
+    padding: 4% 5%;
+}
+.titulo-esquerda {
+    font-size: 30px;
+    padding-bottom: 10%;
+}
+.icon {
+    width: 40px;
+    padding-right: 20px;
+}
+.item-contato {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.nome-item-contato {
+    text-decoration: underline;
+    color: var(--cor-clara-3);
+    font-size: 20px;
+}
+footer {
+    background-color: var(--cor-escura-2);
+    height: 200px;
+    padding: 1% 5%;
+}
+.icon-rodape {
+    width: 25px;
+}
+.container-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-esquerda {
+    display: block;
+}
+.link-rodape {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--cor-clara-3);
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.link-rodape:hover{
+    color: var(--cor-clara-2);
+}
+.item-rodape {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: var(--cor-clara-3);
+}
+.nome-item-rodape {
+    color: var(--cor-clara-3);
+    margin-left: 10px;
+}
+.direitos {
+    display: flex;
+    justify-content: center;
+}
+.nome-item-rodape:hover {
+    color: var(--cor-clara-2);
+}
+.nome-item-contato:hover {
+    color: var(--cor-clara-2);
+}
+.subir {
+    border-radius: 50%;
+    position: fixed;
+    background-color: var(--cor-clara-1);
+}
